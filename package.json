@@ -1,0 +1,27 @@
+{
+  "name": "gemini-sample-node-server",
+  "version": "1.0.0",
+  "description": "Quick Node service for getting summaries back from Google Gemini",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jake3111/gemini-sample-node-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jake3111/gemini-sample-node-server/issues"
+  },
+  "homepage": "https://github.com/jake3111/gemini-sample-node-server#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
